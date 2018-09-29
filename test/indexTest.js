@@ -16,7 +16,7 @@ describe("index.js", () => {
   ];
 
   function triggerKeyDown(key) {
-    const keyboardEvent = new KeyboardEvent("keydown", { key });
+    let keyboardEvent = new KeyboardEvent("keydown", {key});
     document.body.dispatchEvent(keyboardEvent);
   }
   
