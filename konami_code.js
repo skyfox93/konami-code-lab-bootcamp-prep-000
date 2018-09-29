@@ -7,8 +7,8 @@ const codes = [
   "ArrowRight",
   "ArrowLeft",
   "ArrowRight",
-  "keyb",
-  "keya"
+  "KeyB",
+  "KeyA"
 ];
 var pressed=[];
 function checkCode(e){pressed.push(e.code);var temp=pressed.slice(-10);console.log(temp);for(var i=0;i<10;i++)
